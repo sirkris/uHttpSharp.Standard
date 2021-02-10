@@ -458,6 +458,7 @@ namespace uhttpsharp.Logging
             }
             catch (Exception ex)
             {
+                return null;
 #if LIBLOG_PORTABLE
                 Debug.WriteLine(
 #else

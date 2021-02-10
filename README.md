@@ -1,4 +1,16 @@
-﻿# µHttpSharp
+﻿# µHttpSharp.Standard
+
+This is a .NET Standard port of µHttpSharp, enabling use with .NET Core and Xamarin apps.  This fork was created by [Kris Craig][] for use with [Reddit.NET][].
+
+## Differences From µHttpSharp
+
+* Target framework is .NET Standard 2.0 instead of .NET Framework 4.5.
+* Deleted Tests and Demo to make the migration easier.  If you want the demo/tests, you can find them in the original µHttpSharp repo.
+* Removed all uses of Console.WriteLine.
+
+Original documentation follows.
+
+# µHttpSharp
 
 A very lightweight & simple embedded http server for c# 
 
@@ -18,6 +30,9 @@ Master | Provider
 [AppVeyor]:http://www.appveyor.com/
 [JetBrains]:http://www.jetbrains.com/
 [CodeBetter]:http://codebetter.com/
+
+[KrisCraig]:https://github.com/sirkris/
+[Reddit.NET]:https://github.com/sirkris/Reddit.NET
 
 ## Usage
 

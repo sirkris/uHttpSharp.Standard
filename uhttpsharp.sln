@@ -1,19 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uhttpsharp.Demo", "uhttpsharp-demo\uhttpsharp.Demo.csproj", "{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uhttpsharp", "uhttpsharp\uhttpsharp.csproj", "{3D681959-4DA3-4A71-A68B-704D6411D5EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uhttpsharp", "uhttpsharp\uhttpsharp.csproj", "{3D681959-4DA3-4A71-A68B-704D6411D5EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA15AFF9-2029-4D23-8F0C-FD0476394B0B}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 		uhttpsharp.dll.nuspec = uhttpsharp.dll.nuspec
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uhttpsharp.Tests", "uhttpsharp.Tests\uhttpsharp.Tests.csproj", "{41C9BDAC-21BE-4C50-933D-9E047F767E63}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EEE3A8EB-CBA2-4590-B856-F6EF95FD6113}"
 	ProjectSection(SolutionItems) = preProject
@@ -32,17 +28,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Debug|Any CPU.Build.0 = Debug|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Debug|x86.ActiveCfg = Debug|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Debug|x86.Build.0 = Debug|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Release|Any CPU.ActiveCfg = Release|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Release|Mixed Platforms.Build.0 = Release|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Release|x86.ActiveCfg = Release|x86
-		{55C5E8D2-F55E-4B9F-B96F-FCE201739D07}.Release|x86.Build.0 = Release|x86
 		{3D681959-4DA3-4A71-A68B-704D6411D5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D681959-4DA3-4A71-A68B-704D6411D5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D681959-4DA3-4A71-A68B-704D6411D5EA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -53,19 +38,12 @@ Global
 		{3D681959-4DA3-4A71-A68B-704D6411D5EA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{3D681959-4DA3-4A71-A68B-704D6411D5EA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{3D681959-4DA3-4A71-A68B-704D6411D5EA}.Release|x86.ActiveCfg = Release|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{41C9BDAC-21BE-4C50-933D-9E047F767E63}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {025A60D3-6E53-4D37-8726-869F38608799}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = uhttpsharp-demo\uhttpsharp.Demo.csproj
