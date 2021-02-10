@@ -31,7 +31,7 @@ Master | Provider
 [JetBrains]:http://www.jetbrains.com/
 [CodeBetter]:http://codebetter.com/
 
-[KrisCraig]:https://github.com/sirkris/
+[Kris Craig]:https://github.com/sirkris/
 [Reddit.NET]:https://github.com/sirkris/Reddit.NET
 
 ## Usage
